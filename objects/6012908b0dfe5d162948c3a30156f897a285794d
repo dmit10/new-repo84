@@ -1,0 +1,12 @@
+[module "5a87894f-e520-3448-9206-a38055bff044"]
+	conflict = request-pull
+	path = GxIntegrationTest.repo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://github-cloud/399423617
+[map "b3e69789-ce13-3430-a208-cbdfeb9b6a83"]
+	object = 1de30879d9403315d8d9d176d873dfb9c6131fe1
+	path = GxIntegrationTest.repo
+	stage = sync
+	type = extract module
